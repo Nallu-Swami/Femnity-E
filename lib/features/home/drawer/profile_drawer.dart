@@ -139,29 +139,29 @@ class ProfileDrawer extends ConsumerWidget {
                 );
               },
             ),
-            SizedBox(height: 20),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 20),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  const Text(
-                    'Dark Mode',
-                    style: TextStyle(
-                      fontFamily: 'Montserrat',
-                      fontSize: 18,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                  Switch.adaptive(
-                    value: ref.watch(themeNotifierProvider.notifier).mode ==
-                        ThemeMode.dark,
-                    onChanged: (val) => toggleTheme(ref),
-                    activeColor: Color(0xFF1E90FF),
-                  ),
-                ],
-              ),
-            ),
+            // SizedBox(height: 20),
+            // Padding(
+            //   padding: const EdgeInsets.symmetric(horizontal: 20),
+            //   child: Row(
+            //     mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            //     children: [
+            //       const Text(
+            //         'Dark Mode',
+            //         style: TextStyle(
+            //           fontFamily: 'Montserrat',
+            //           fontSize: 18,
+            //           fontWeight: FontWeight.bold,
+            //         ),
+            //       ),
+            //       Switch.adaptive(
+            //         value: ref.watch(themeNotifierProvider.notifier).mode ==
+            //             ThemeMode.dark,
+            //         onChanged: (val) => toggleTheme(ref),
+            //         activeColor: Color(0xFF1E90FF),
+            //       ),
+            //     ],
+            //   ),
+            // ),
             Spacer(),
             Padding(
               padding: const EdgeInsets.all(20),
