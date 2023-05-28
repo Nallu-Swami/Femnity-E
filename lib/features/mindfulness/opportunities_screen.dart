@@ -20,12 +20,98 @@ class _OpportunitiesScreenState extends State<OpportunitiesScreen> {
       'field': 'STEM',
     },
     {
+      'title': 'TalentSprint WE',
+      'description':
+          'Women Engineers (WE), a 24-month immersive and LIVE online learning experiential program offered by TalentSprint and supported by Google, trains deserving first-year women engineering students.',
+      'url': 'https://we.talentsprint.com/',
+      'image': 'https://i.imgur.com/4FFWJ7E.png',
+      'field': 'STEM',
+    },
+    {
+      'title': 'TalentSprint WE',
+      'description':
+          'Women Engineers (WE), a 24-month immersive and LIVE online learning experiential program offered by TalentSprint and supported by Google, trains deserving first-year women engineering students.',
+      'url': 'https://we.talentsprint.com/',
+      'image': 'https://i.imgur.com/4FFWJ7E.png',
+      'field': 'STEM',
+    },
+    {
+      'title': 'TalentSprint WE',
+      'description':
+          'Women Engineers (WE), a 24-month immersive and LIVE online learning experiential program offered by TalentSprint and supported by Google, trains deserving first-year women engineering students.',
+      'url': 'https://we.talentsprint.com/',
+      'image': 'https://i.imgur.com/4FFWJ7E.png',
+      'field': 'STEM',
+    },
+    {
       'title': 'DESIS by D.E. Shaw',
       'description':
           'Students enrolled in an undergraduate or postgraduate degree will participate in unique educational experiences in areas ranging from core technical skills to holistic professional development.',
       'url': 'https://www.deshawindia.com/desis-ascend-educare/about.pdf',
       'image': 'https://avatars.githubusercontent.com/u/2298205?s=200&v=4',
       'field': 'Business',
+    },
+    {
+      'title': 'DESIS by D.E. Shaw',
+      'description':
+          'Students enrolled in an undergraduate or postgraduate degree will participate in unique educational experiences in areas ranging from core technical skills to holistic professional development.',
+      'url': 'https://www.deshawindia.com/desis-ascend-educare/about.pdf',
+      'image': 'https://avatars.githubusercontent.com/u/2298205?s=200&v=4',
+      'field': 'Business',
+    },
+    {
+      'title': 'DESIS by D.E. Shaw',
+      'description':
+          'Students enrolled in an undergraduate or postgraduate degree will participate in unique educational experiences in areas ranging from core technical skills to holistic professional development.',
+      'url': 'https://www.deshawindia.com/desis-ascend-educare/about.pdf',
+      'image': 'https://avatars.githubusercontent.com/u/2298205?s=200&v=4',
+      'field': 'Business',
+    },
+    {
+      'title': 'DESIS by D.E. Shaw',
+      'description':
+          'Students enrolled in an undergraduate or postgraduate degree will participate in unique educational experiences in areas ranging from core technical skills to holistic professional development.',
+      'url': 'https://www.deshawindia.com/desis-ascend-educare/about.pdf',
+      'image': 'https://avatars.githubusercontent.com/u/2298205?s=200&v=4',
+      'field': 'Business',
+    },
+    {
+      'title': 'DESIS by D.E. Shaw',
+      'description':
+          'Students enrolled in an undergraduate or postgraduate degree will participate in unique educational experiences in areas ranging from core technical skills to holistic professional development.',
+      'url': 'https://www.deshawindia.com/desis-ascend-educare/about.pdf',
+      'image': 'https://avatars.githubusercontent.com/u/2298205?s=200&v=4',
+      'field': 'Business',
+    },
+    {
+      'title': 'Adobe Women in Tech',
+      'description':
+          'They recognize talented female undergraduate & master\'s students studying computer science and provide them an opportunity to learn, build, and grow.',
+      'url':
+          'https://www.adobe.com/in/lead/creativecloud/women-in-technology.html',
+      'image':
+          'https://1000logos.net/wp-content/uploads/2021/04/Adobe-logo.png',
+      'field': 'Law',
+    },
+    {
+      'title': 'Adobe Women in Tech',
+      'description':
+          'They recognize talented female undergraduate & master\'s students studying computer science and provide them an opportunity to learn, build, and grow.',
+      'url':
+          'https://www.adobe.com/in/lead/creativecloud/women-in-technology.html',
+      'image':
+          'https://1000logos.net/wp-content/uploads/2021/04/Adobe-logo.png',
+      'field': 'Law',
+    },
+    {
+      'title': 'Adobe Women in Tech',
+      'description':
+          'They recognize talented female undergraduate & master\'s students studying computer science and provide them an opportunity to learn, build, and grow.',
+      'url':
+          'https://www.adobe.com/in/lead/creativecloud/women-in-technology.html',
+      'image':
+          'https://1000logos.net/wp-content/uploads/2021/04/Adobe-logo.png',
+      'field': 'Law',
     },
     {
       'title': 'Adobe Women in Tech',
