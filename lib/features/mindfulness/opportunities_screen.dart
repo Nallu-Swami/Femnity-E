@@ -124,7 +124,7 @@ class _OpportunitiesScreenState extends State<OpportunitiesScreen> {
       'field': 'Law',
     },
   ];
-  
+
   List<Map<String, String>> getFilteredOpportunities() {
     return scholarships.where((opportunity) {
       return opportunity['field'] == selectedField;
@@ -328,13 +328,13 @@ class _OpportunitiesScreenState extends State<OpportunitiesScreen> {
               children: [
                 if (selectedField == 'STEM')
                   OpportunityTile(
-                    company: 'Facebook',
-                    position: 'Developer Program Manager',
-                    url: 'https://www.facebook.com/careers/jobs/',
+                    company: 'Netflix',
+                    position: 'Junior Developer',
+                    url: 'https://jobs.netflix.com/',
                     logo:
-                        'https://1000logos.net/wp-content/uploads/2021/10/logo-Meta.png',
+                        'https://www.freepnglogos.com/uploads/netflix-logo-0.png',
                   ),
-                  if (selectedField == 'STEM')
+                if (selectedField == 'STEM')
                   OpportunityTile(
                     company: 'Amazon',
                     position: 'Software Development Engineer',
@@ -342,7 +342,7 @@ class _OpportunitiesScreenState extends State<OpportunitiesScreen> {
                     logo:
                         'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/2500px-Amazon_icon.svg.png',
                   ),
-                  if (selectedField == 'STEM')
+                if (selectedField == 'STEM')
                   OpportunityTile(
                     company: 'Google',
                     position: 'Software Engineer',
@@ -350,7 +350,7 @@ class _OpportunitiesScreenState extends State<OpportunitiesScreen> {
                     logo:
                         'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2008px-Google_%22G%22_Logo.svg.png',
                   ),
-                  if (selectedField == 'STEM')
+                if (selectedField == 'STEM')
                   OpportunityTile(
                     company: 'Facebook',
                     position: 'Developer Program Manager',
@@ -360,65 +360,65 @@ class _OpportunitiesScreenState extends State<OpportunitiesScreen> {
                   ),
                 if (selectedField == 'Business')
                   OpportunityTile(
-                    company: 'Amazon',
-                    position: 'Software Development Engineer',
-                    url: 'https://www.amazon.jobs/en/',
+                    company: 'Tata Consultancy Services',
+                    position: 'Software Engineer',
+                    url: 'https://www.tcs.com/careers',
                     logo:
                         'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/2500px-Amazon_icon.svg.png',
                   ),
-                  if (selectedField == 'Business')
+                if (selectedField == 'Business')
                   OpportunityTile(
-                    company: 'Amazon',
-                    position: 'Software Development Engineer',
-                    url: 'https://www.amazon.jobs/en/',
+                    company: 'Infosys',
+                    position: 'Technology Analyst',
+                    url: 'https://www.infosys.com/careers/',
                     logo:
                         'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/2500px-Amazon_icon.svg.png',
                   ),
-                  if (selectedField == 'Business')
+                if (selectedField == 'Business')
                   OpportunityTile(
-                    company: 'Amazon',
-                    position: 'Software Development Engineer',
-                    url: 'https://www.amazon.jobs/en/',
+                    company: 'Wipro',
+                    position: 'Software Engineer',
+                    url: 'https://careers.wipro.com/',
                     logo:
                         'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/2500px-Amazon_icon.svg.png',
                   ),
-                  if (selectedField == 'Business')
+                if (selectedField == 'Business')
                   OpportunityTile(
-                    company: 'Amazon',
-                    position: 'Software Development Engineer',
-                    url: 'https://www.amazon.jobs/en/',
+                    company: 'Reliance Industries',
+                    position: 'Business Analyst',
+                    url: 'https://www.ril.com/Careers.aspx',
                     logo:
                         'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/2500px-Amazon_icon.svg.png',
                   ),
                 if (selectedField == 'Law')
                   OpportunityTile(
-                    company: 'Google',
-                    position: 'Software Engineer',
-                    url: 'https://www.google.com/about/careers/',
+                    company: 'Hamlin, Hamlin & McGill',
+                    position: 'Senior Associate',
+                    url: 'https://www.example.com/hhm-law',
                     logo:
-                        'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2008px-Google_%22G%22_Logo.svg.png',
+                        'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/2500px-Amazon_icon.svg.png',
                   ),
-                  if (selectedField == 'Law')
+                if (selectedField == 'Law')
                   OpportunityTile(
-                    company: 'Facebook',
-                    position: 'Developer Program Manager',
-                    url: 'https://www.facebook.com/careers/jobs/',
+                    company: 'Wexler-McGill',
+                    position: 'Partner',
+                    url: 'https://www.example.com/wexler-mcgill',
                     logo:
-                        'https://1000logos.net/wp-content/uploads/2021/10/logo-Meta.png',
+                        'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/2500px-Amazon_icon.svg.png',
                   ),
-                  if (selectedField == 'Law')
+                if (selectedField == 'Law')
                   OpportunityTile(
-                    company: 'Google',
-                    position: 'Software Engineer',
-                    url: 'https://www.google.com/about/careers/',
+                    company: 'Davis & Main',
+                    position: 'Associate',
+                    url: 'https://www.example.com/davis-main',
                     logo:
-                        'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2008px-Google_%22G%22_Logo.svg.png',
+                        'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/2500px-Amazon_icon.svg.png',
                   ),
-                  if (selectedField == 'Law')
+                if (selectedField == 'Law')
                   OpportunityTile(
-                    company: 'Amazon',
-                    position: 'Software Development Engineer',
-                    url: 'https://www.amazon.jobs/en/',
+                    company: 'Sandpiper',
+                    position: 'Senior Partner',
+                    url: 'https://www.example.com/sandpiper',
                     logo:
                         'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/2500px-Amazon_icon.svg.png',
                   ),
