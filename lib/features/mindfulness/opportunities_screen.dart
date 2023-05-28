@@ -124,7 +124,7 @@ class _OpportunitiesScreenState extends State<OpportunitiesScreen> {
       'field': 'Law',
     },
   ];
-
+  
   List<Map<String, String>> getFilteredOpportunities() {
     return scholarships.where((opportunity) {
       return opportunity['field'] == selectedField;
@@ -161,7 +161,7 @@ class _OpportunitiesScreenState extends State<OpportunitiesScreen> {
                 options: CarouselOptions(
                   viewportFraction: 0.8,
                   enlargeCenterPage: true,
-                  autoPlay: true,
+                  autoPlay: false,
                   autoPlayInterval: Duration(seconds: 5),
                   autoPlayAnimationDuration: Duration(milliseconds: 800),
                   autoPlayCurve: Curves.fastOutSlowIn,
@@ -344,7 +344,55 @@ class _OpportunitiesScreenState extends State<OpportunitiesScreen> {
                     logo:
                         'https://1000logos.net/wp-content/uploads/2021/10/logo-Meta.png',
                   ),
+                  if (selectedField == 'STEM')
+                  OpportunityTile(
+                    company: 'Amazon',
+                    position: 'Software Development Engineer',
+                    url: 'https://www.amazon.jobs/en/',
+                    logo:
+                        'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/2500px-Amazon_icon.svg.png',
+                  ),
+                  if (selectedField == 'STEM')
+                  OpportunityTile(
+                    company: 'Google',
+                    position: 'Software Engineer',
+                    url: 'https://www.google.com/about/careers/',
+                    logo:
+                        'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2008px-Google_%22G%22_Logo.svg.png',
+                  ),
+                  if (selectedField == 'STEM')
+                  OpportunityTile(
+                    company: 'Facebook',
+                    position: 'Developer Program Manager',
+                    url: 'https://www.facebook.com/careers/jobs/',
+                    logo:
+                        'https://1000logos.net/wp-content/uploads/2021/10/logo-Meta.png',
+                  ),
                 if (selectedField == 'Business')
+                  OpportunityTile(
+                    company: 'Amazon',
+                    position: 'Software Development Engineer',
+                    url: 'https://www.amazon.jobs/en/',
+                    logo:
+                        'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/2500px-Amazon_icon.svg.png',
+                  ),
+                  if (selectedField == 'Business')
+                  OpportunityTile(
+                    company: 'Amazon',
+                    position: 'Software Development Engineer',
+                    url: 'https://www.amazon.jobs/en/',
+                    logo:
+                        'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/2500px-Amazon_icon.svg.png',
+                  ),
+                  if (selectedField == 'Business')
+                  OpportunityTile(
+                    company: 'Amazon',
+                    position: 'Software Development Engineer',
+                    url: 'https://www.amazon.jobs/en/',
+                    logo:
+                        'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/2500px-Amazon_icon.svg.png',
+                  ),
+                  if (selectedField == 'Business')
                   OpportunityTile(
                     company: 'Amazon',
                     position: 'Software Development Engineer',
@@ -359,6 +407,30 @@ class _OpportunitiesScreenState extends State<OpportunitiesScreen> {
                     url: 'https://www.google.com/about/careers/',
                     logo:
                         'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2008px-Google_%22G%22_Logo.svg.png',
+                  ),
+                  if (selectedField == 'Law')
+                  OpportunityTile(
+                    company: 'Facebook',
+                    position: 'Developer Program Manager',
+                    url: 'https://www.facebook.com/careers/jobs/',
+                    logo:
+                        'https://1000logos.net/wp-content/uploads/2021/10/logo-Meta.png',
+                  ),
+                  if (selectedField == 'Law')
+                  OpportunityTile(
+                    company: 'Google',
+                    position: 'Software Engineer',
+                    url: 'https://www.google.com/about/careers/',
+                    logo:
+                        'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2008px-Google_%22G%22_Logo.svg.png',
+                  ),
+                  if (selectedField == 'Law')
+                  OpportunityTile(
+                    company: 'Amazon',
+                    position: 'Software Development Engineer',
+                    url: 'https://www.amazon.jobs/en/',
+                    logo:
+                        'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/2500px-Amazon_icon.svg.png',
                   ),
               ],
             ),
