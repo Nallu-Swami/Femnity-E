@@ -167,7 +167,7 @@ class _OpportunitiesScreenState extends State<OpportunitiesScreen> {
                   autoPlayCurve: Curves.fastOutSlowIn,
                 ),
                 items: scholarships.map((scholarship) {
-                  if (scholarship['field'] == selectedField) {
+                  
                     return Builder(
                       builder: (BuildContext context) {
                         return Container(
@@ -253,9 +253,7 @@ class _OpportunitiesScreenState extends State<OpportunitiesScreen> {
                         );
                       },
                     );
-                  } else {
-                    return Container();
-                  }
+                  
                 }).toList(),
               ),
             ),
