@@ -410,7 +410,7 @@ class _OpportunitiesScreenState extends State<OpportunitiesScreen> {
                     position: 'Associate',
                     url: 'https://www.example.com/davis-main',
                     logo:
-                        'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/2500px-Amazon_icon.svg.png',
+                        'https://static.wikia.nocookie.net/breakingbad/images/c/c9/Davis_%26_Main_logo.jpg/revision/latest?cb=20191120090226',
                   ),
                 if (selectedField == 'Law')
                   OpportunityTile(
@@ -418,7 +418,7 @@ class _OpportunitiesScreenState extends State<OpportunitiesScreen> {
                     position: 'Senior Partner',
                     url: 'https://www.example.com/sandpiper',
                     logo:
-                        'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/2500px-Amazon_icon.svg.png',
+                        'https://i.pinimg.com/originals/e3/88/f0/e388f0f9217c9688eb08fe9e03fb70f1.png',
                   ),
               ],
             ),
